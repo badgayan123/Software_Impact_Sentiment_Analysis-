@@ -1,6 +1,8 @@
 SentimentViz accelerator uses Flask and the Hugging Face Transformers library. It leverages a pre-trained RoBERTa model to classify the sentiment of text reviews into three categories: Negative, Neutral, and Positive. It is structured into multiple layers, each responsible for a specific functionality, from data handling to real-time deployment.
 
 Code Structure
+
+
 Layer 1: Data Layer
 Purpose: This layer is responsible for fetching product data from the RainForest API, preprocessing the review text, and preparing it for analysis.
 Key Functions:
